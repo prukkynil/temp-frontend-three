@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/index.css" />
+  </head>
+  <body class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-indigo-100 font-sans">
+    <main class="bg-white/80 backdrop-blur-lg rounded-2xl shadow-xl p-10 max-w-md w-full flex flex-col items-center">
+      <h1 class="text-indigo-600 text-4xl font-bold tracking-wide drop-shadow-lg mb-4 text-center">
+        Register
+      </h1>
+      <form class="w-full flex flex-col gap-4">
+        <input type="text" placeholder="Username" class="px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400" required />
+        <input type="email" placeholder="Email" class="px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400" required />
+        <input type="password" placeholder="Password" class="px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400" required />
+        <button type="submit" class="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg shadow hover:bg-indigo-700 transition">
+          Register
+        </button>
+      </form>
+      <p class="mt-6 text-gray-600 text-sm text-center">
+        Already have an account?
+        <a href="index.html" class="text-indigo-600 hover:underline">Back to Home</a>
+      </p>
+    </main>
+  </body>
+</html>
