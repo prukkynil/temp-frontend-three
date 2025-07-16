@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme {
+:root {
   /* 
     Brand Colors 
     Extracted from the website UI. The primary brand color is a vibrant green.

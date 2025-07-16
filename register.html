@@ -6,22 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/index.css" />
   </head>
-  <body class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-indigo-100 font-sans">
-    <main class="bg-white/80 backdrop-blur-lg rounded-2xl shadow-xl p-10 max-w-md w-full flex flex-col items-center">
-      <h1 class="text-indigo-600 text-4xl font-bold tracking-wide drop-shadow-lg mb-4 text-center">
+  <body class="min-h-screen flex items-center justify-center font-sans"
+    style="background-color: var(--color-neutral-50);">
+    <main class="backdrop-blur-lg shadow p-10 max-w-md w-full flex flex-col items-center"
+      style="background: var(--color-white); border-radius: var(--radius-lg); box-shadow: var(--shadow);">
+      <h1 class="mb-4 text-center"
+        style="color: var(--color-web-green-500); font-size: var(--text-4xl); font-weight: bold;">
         Register
       </h1>
       <form class="w-full flex flex-col gap-4">
-        <input type="text" placeholder="Username" class="px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400" required />
-        <input type="email" placeholder="Email" class="px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400" required />
-        <input type="password" placeholder="Password" class="px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-400" required />
-        <button type="submit" class="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg shadow hover:bg-indigo-700 transition">
+        <input type="text" placeholder="Username"
+          class="px-4 py-2 rounded-lg border focus:outline-none"
+          style="border: 1px solid var(--color-neutral-200); border-radius: var(--radius-md); font-size: var(--text-base); color: var(--color-neutral-700); background: var(--color-neutral-50);" required />
+        <input type="email" placeholder="Email"
+          class="px-4 py-2 rounded-lg border focus:outline-none"
+          style="border: 1px solid var(--color-neutral-200); border-radius: var(--radius-md); font-size: var(--text-base); color: var(--color-neutral-700); background: var(--color-neutral-50);" required />
+        <input type="password" placeholder="Password"
+          class="px-4 py-2 rounded-lg border focus:outline-none"
+          style="border: 1px solid var(--color-neutral-200); border-radius: var(--radius-md); font-size: var(--text-base); color: var(--color-neutral-700); background: var(--color-neutral-50);" required />
+        <button type="submit"
+          class="px-6 py-3 font-semibold shadow transition"
+          style="background: var(--color-web-green-500); color: var(--color-white); border-radius: var(--radius-md); box-shadow: var(--shadow);">
           Register
         </button>
       </form>
-      <p class="mt-6 text-gray-600 text-sm text-center">
+      <p class="mt-6 text-center" style="color: var(--color-neutral-500); font-size: var(--text-sm);">
         Already have an account?
-        <a href="index.html" class="text-indigo-600 hover:underline">Back to Home</a>
+        <a href="index.html" style="color: var(--color-web-green-500); text-decoration: underline;">Back to Home</a>
       </p>
     </main>
   </body>
