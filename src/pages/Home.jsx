@@ -1,3 +1,5 @@
+import Datepicker from "../components/Datepicker";
+
 export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-neutral-50">
@@ -18,6 +20,7 @@ export default function Home() {
         >
           Login
         </a>
+        <Datepicker />
       </main>
     </div>
   );
